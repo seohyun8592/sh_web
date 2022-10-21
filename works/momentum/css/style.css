@@ -272,3 +272,16 @@ footer {
 .footer-wrap {
   height: 50px;
 }
+
+@media (max-width: 850px) {
+  .date-area .clock {
+    font-size: 100px;
+  }
+  .date-area .desc {
+    font-size: 30px;
+  }
+
+  .text-area .desc {
+    font-size: 24px;
+  }
+}
