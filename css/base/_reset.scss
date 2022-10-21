@@ -151,6 +151,7 @@ textarea {
   resize: none;
   &::placeholder {
     color: $baseColor;
+    opacity: 0.5;
   }
 }
 button {

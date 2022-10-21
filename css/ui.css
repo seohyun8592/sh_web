@@ -266,18 +266,22 @@ textarea {
 
 textarea::-webkit-input-placeholder {
   color: #348597;
+  opacity: 0.5;
 }
 
 textarea:-ms-input-placeholder {
   color: #348597;
+  opacity: 0.5;
 }
 
 textarea::-ms-input-placeholder {
   color: #348597;
+  opacity: 0.5;
 }
 
 textarea::placeholder {
   color: #348597;
+  opacity: 0.5;
 }
 
 button {
@@ -1094,6 +1098,10 @@ body.stop__scroll {
   }
   .ly-wrap .skills-area .skill-name:hover {
     top: 0;
+  }
+  .ly-contents__main .contents__item ul.skill li .skill__per::before {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
   .ly-contents__visual .visual__intro-wrap .intro__title {
     width: 100%;
