@@ -7,13 +7,13 @@ const Popup = document.querySelector('.pop-up');
 const popupMessage = document.querySelector('.pop-up-ms');
 const popupRefresh = document.querySelector('.refresh');
 const count = document.querySelector('.count');
-const durationGameTime = 7;
+const durationGameTime = 10;
 
 let started = false;
 let timerStart = undefined;
 let score = 0;
-let CARROT_COUNT = 5;
-let BUG_COUNT = 5;
+let CARROT_COUNT = 10;
+let BUG_COUNT = 20;
 
 // 게임 시작 버튼을 눌렀을 때
 startBtn.addEventListener('click', () => {
