@@ -701,7 +701,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .ly-contents__main .contents__item h3 + ul {
-  margin-top: 0.625rem;
+  margin-top: 0.9375rem;
 }
 
 .ly-contents__main .contents__item ul li {
@@ -802,16 +802,24 @@ textarea:focus:-ms-input-placeholder {
           justify-content: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: -1.25rem;
 }
 
 .ly-contents__main .contents__item ul.project li {
   width: calc(33.33% - 1.25rem);
-  margin: 1.25rem 1.25rem 0 0;
+  font-size: 1rem;
+  margin: 0 1.25rem 1.5625rem 0;
+}
+
+.ly-contents__main .contents__item ul.project li p {
+  font-size: 0.875rem;
+  margin-top: 0.125rem;
+}
+
+.ly-contents__main .contents__item ul.project li p:last-child {
+  margin-top: 0.25rem;
 }
 
 .ly-contents__main .contents__item ul.q-list li p {
-  font-size: 0.875rem;
   padding-left: 0.125rem;
 }
 
@@ -916,7 +924,7 @@ body.stop__scroll {
   color: #ffffff;
   border-radius: 0.1875rem;
   padding: 0.125rem 0.3125rem;
-  margin-top: 0.25rem;
+  margin-top: 0.125rem;
   margin-right: 0.125rem;
 }
 
