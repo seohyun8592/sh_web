@@ -264,6 +264,22 @@ textarea {
   resize: none;
 }
 
+textarea::-webkit-input-placeholder {
+  color: #348597;
+}
+
+textarea:-ms-input-placeholder {
+  color: #348597;
+}
+
+textarea::-ms-input-placeholder {
+  color: #348597;
+}
+
+textarea::placeholder {
+  color: #348597;
+}
+
 button {
   border: 0;
   outline: 0;
@@ -277,6 +293,30 @@ button {
           box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   /* 모서리의 경계가 픽셀이 깨져 보이지 않음, 폰트를 부드럽게 해줌 */
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: transparent;
+}
+
+input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: transparent;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: transparent;
 }
 
 @font-face {
@@ -417,7 +457,7 @@ button {
 
 .ly-wrap .btn__submit {
   height: 1.875rem;
-  font-weight: 700;
+  font-weight: 500;
   color: #ffffff;
   border-radius: 0.3125rem;
   background-color: #348597;
@@ -619,7 +659,7 @@ button {
 
 .ly-contents__main .contents__list {
   width: calc(100% - 11.25rem);
-  padding-left: 6.25rem;
+  padding-left: 1.875rem;
   margin: 0 auto;
 }
 
@@ -767,11 +807,42 @@ button {
 
 .ly-contents__main .contents__item ul.project li {
   width: calc(33.33% - 1.25rem);
-  margin: 1.875rem 1.25rem 0 0;
+  margin: 1.25rem 1.25rem 0 0;
+}
+
+.ly-contents__main .contents__item ul.q-list li p {
+  font-size: 0.875rem;
+  padding-left: 0.125rem;
+}
+
+.ly-contents__main .contents__item ul.q-list li p a {
+  color: #348597;
+}
+
+.ly-contents__main .contents__item ul .msg-area {
+  position: relative;
+  height: 5rem;
+  margin-top: 0.625rem;
+}
+
+.ly-contents__main .contents__item ul .msg-area textarea {
+  height: 100%;
+  color: #348597;
+  border: 0.0625rem solid #348597;
+  padding: 0.625rem 5.3125rem 0.625rem 0.625rem;
+}
+
+.ly-contents__main .contents__item ul .msg-area textarea + button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  font-size: 0.75rem;
+  border-radius: 0;
 }
 
 .ly-contents__main .contents__item + .contents__item {
-  margin-top: 2.1875rem;
+  margin-top: 2.5rem;
 }
 
 .ly-contents__main .contents .img-area {
@@ -788,70 +859,6 @@ button {
   font-size: 1.25rem;
   color: #348597;
   margin-bottom: 0.625rem;
-}
-
-.ly-contents__main .contents .q-list li {
-  position: relative;
-  color: #348597;
-  border-bottom: 0.0625rem solid #348597;
-  padding: 0.625rem 0.625rem 0.625rem 1.5625rem;
-}
-
-.ly-contents__main .contents .q-list li h3 {
-  font-size: 1rem;
-}
-
-.ly-contents__main .contents .q-list li h3 + * {
-  margin-top: 0.5rem;
-}
-
-.ly-contents__main .contents .q-list li p {
-  font-size: 0.875rem;
-  padding-left: 0.125rem;
-}
-
-.ly-contents__main .contents .q-list li::before {
-  content: 'Q';
-  position: absolute;
-  top: 0.5rem;
-  left: 0.3125rem;
-  font-size: 1.125rem;
-}
-
-.ly-contents__main .contents .msg-area {
-  position: relative;
-}
-
-.ly-contents__main .contents .msg-area textarea {
-  height: 3.125rem;
-  color: #348597;
-  border: 0.0625rem solid #348597;
-  padding: 0.3125rem 4.6875rem 0.3125rem 0.3125rem;
-}
-
-.ly-contents__main .contents .msg-area textarea::-webkit-input-placeholder {
-  color: #348597;
-}
-
-.ly-contents__main .contents .msg-area textarea:-ms-input-placeholder {
-  color: #348597;
-}
-
-.ly-contents__main .contents .msg-area textarea::-ms-input-placeholder {
-  color: #348597;
-}
-
-.ly-contents__main .contents .msg-area textarea::placeholder {
-  color: #348597;
-}
-
-.ly-contents__main .contents .msg-area textarea + button {
-  position: absolute;
-  top: 50%;
-  right: 0.625rem;
-  margin-top: -0.125rem;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
 }
 
 .ly-contents__main .contents + .contents {

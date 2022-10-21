@@ -16,7 +16,7 @@
     .btn {
       &__submit {
         height: rem(30);
-        font-weight: 700;
+        font-weight: 500;
         color: $white;
         border-radius: rem(5);
         background-color: $baseColor;
@@ -163,7 +163,7 @@
 
         &__list {
           width: calc(100% - 11.25rem);
-          padding-left: rem(100);
+          padding-left: rem(30);
           margin: 0 auto;
           h2 {
             color: $baseColor;
@@ -283,12 +283,43 @@
               margin-top: rem(-20);
               li {
                 width: calc(33.33% - 1.25rem);
-                margin: rem(30) rem(20) 0 0;
+                margin: rem(20) rem(20) 0 0;
+              }
+            }
+            &.q-list {
+              li {
+                p {
+                  font-size: rem(14);
+                  padding-left: rem(2);
+                  a {
+                    color: $baseColor;
+                  }
+                }
+              }
+            }
+            .msg-area {
+              position: relative;
+              height: rem(80);
+              margin-top: rem(10);
+              textarea {
+                height: 100%;
+                color: $baseColor;
+                border: rem(1) solid $baseColor;
+                padding: rem(10) rem(85) rem(10) rem(10);
+
+                & + button {
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  height: 100%;
+                  font-size: rem(12);
+                  border-radius: 0;
+                }
               }
             }
           }
           & + .contents__item {
-            margin-top: rem(35);
+            margin-top: rem(40);
           }
         }
         .img-area {
@@ -305,51 +336,7 @@
           color: $baseColor;
           margin-bottom: rem(10);
         }
-        .q-list {
-          li {
-            position: relative;
-            color: $baseColor;
-            border-bottom: rem(1) solid $baseColor;
-            padding: rem(10) rem(10) rem(10) rem(25);
-            h3 {
-              font-size: rem(16);
-              & + * {
-                margin-top: rem(8);
-              }
-            }
-            p {
-              font-size: rem(14);
-              padding-left: rem(2);
-            }
 
-            &::before {
-              content: 'Q';
-              position: absolute;
-              top: rem(8);
-              left: rem(5);
-              font-size: rem(18);
-            }
-          }
-        }
-        .msg-area {
-          position: relative;
-          textarea {
-            height: rem(50);
-            color: $baseColor;
-            border: rem(1) solid $baseColor;
-            padding: rem(5) rem(75) rem(5) rem(5);
-            &::placeholder {
-              color: $baseColor;
-            }
-            & + button {
-              position: absolute;
-              top: 50%;
-              right: rem(10);
-              margin-top: rem(-2);
-              transform: translateY(-50%);
-            }
-          }
-        }
         & + .contents {
           margin-top: rem(100);
         }
