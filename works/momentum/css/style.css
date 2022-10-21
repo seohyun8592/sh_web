@@ -1,0 +1,274 @@
+html {
+  width: 100%;
+  height: 100vh;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+button {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+/* **공통 클래스** */
+header,
+section,
+footer {
+  width: 100%;
+}
+.contents-area {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.contents-box {
+}
+
+/* 가로 배열 */
+.left-area {
+}
+.right-area {
+}
+
+/* 위치가 고정되지 않는 컨텐츠 */
+.floating-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.desc {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* wrap */
+.wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 360px;
+  z-index: 10;
+  overflow: hidden;
+}
+.bg-area {
+  width: 100%;
+  height: 100%;
+  background: url('../img/bg_03.png') no-repeat center 0 / cover;
+  z-index: 1;
+}
+.bg-area::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hidden {
+  display: none;
+}
+
+/* header */
+.header-wrap {
+  height: 50px;
+}
+
+/* main-section */
+.main-contents-wrap {
+  height: calc(100% - 100px);
+  padding: 0 20px;
+}
+.main-contents-wrap .contents-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-contents-wrap .contents-area .login-form {
+}
+.main-contents-wrap .contents-area .contents-box {
+}
+
+.main-contents-wrap .contents-area .contents-box,
+.main-contents-wrap .contents-area .login-form {
+  color: #fff;
+  text-align: center;
+}
+
+.date-area {
+}
+.date-area .clock {
+  font-size: 140px;
+  margin-bottom: 30px;
+}
+.date-area .desc {
+  font-size: 54px;
+}
+.clock {
+}
+
+.text-area {
+}
+.text-area .desc {
+  font-size: 35px;
+}
+.text-area .form-area {
+  margin-top: 20px;
+}
+.text-area .form-area input {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+  transition: border-bottom 0.4s ease-in-out;
+}
+.text-area .form-area input:focus {
+  border-bottom-color: turquoise;
+}
+
+.date-area + .text-area {
+  margin-top: 20px;
+}
+
+/* footer */
+.footer-wrap {
+  height: 50px;
+}
