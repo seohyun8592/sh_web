@@ -93,7 +93,7 @@ input[type*='password'] {
 }
 
 button {
-  height: 26px;
+  height: 22px;
   color: #fff;
   background-color: transparent;
   border: 0;
@@ -108,9 +108,10 @@ button {
   margin-top: 20px;
 }
 .btn-area button {
-  width: 50px;
+  font-size: 12px;
   border-radius: 5px;
   background-color: teal;
+  padding: 0 5px;
 }
 .logout-btn {
   position: absolute;
@@ -293,9 +294,10 @@ header {
   margin-top: 0;
 }
 .list-wrap .list-area .list-item li .btn-area .del-btn {
-  width: 14px;
-  height: 14px;
-  background: url('../img/list_del.png') no-repeat 0 0 / 100%;
+  /* width: 14px;
+  height: 14px; */
+  /* background: url('../img/list_del.png') no-repeat 0 0 / 100%; */
+  cursor: pointer;
 }
 
 footer {

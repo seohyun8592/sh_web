@@ -205,7 +205,7 @@
     delBtnArea.setAttribute('class', 'btn-area');
     const delBtn = document.createElement('button');
     delBtn.setAttribute('class', 'del-btn');
-
+    delBtn.innerHTML = '삭제';
     delBtn.addEventListener('click', listDelHandler);
 
     li.appendChild(span);
