@@ -274,3 +274,16 @@ function init() {
 document.addEventListener('DOMContentLoaded', function () {
   init();
 });
+
+const input = [
+  { name: '철수', age: 12 },
+  { name: '영희', age: 10 },
+  { name: '바둑이', age: 2 },
+];
+
+const minAge = Math.min(...input.map((item) => item.age));
+// const minAge = Math.max.apply(
+//   null,
+//   input.map((item) => item.age)
+// );
+console.log(minAge);

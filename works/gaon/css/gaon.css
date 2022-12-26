@@ -250,7 +250,7 @@ body {
 .title {
   font-size: 6rem;
   font-weight: 800;
-  color: $white;
+  color: #ffffff;
 }
 
 .title--fz44 {
@@ -305,7 +305,7 @@ body {
 
 .desc {
   font-size: 1.5rem;
-  color: $white;
+  color: #ffffff;
   line-height: 2.4rem;
 }
 
@@ -476,7 +476,7 @@ body {
 }
 
 .contents-wrap .swiper-pagination-current {
-  color: $white;
+  color: #ffffff;
 }
 
 .contents-wrap .swiper-pagination-total {
@@ -521,7 +521,7 @@ input[type='date'] {
   width: 100%;
   height: 4.6rem;
   font-size: 1.4rem;
-  color: $white;
+  color: #ffffff;
   background-color: transparent;
   border: 0.1rem solid #454545;
   padding: 0 2rem;
@@ -580,15 +580,15 @@ input[type='checkbox'] + label::after {
 }
 
 input[type='checkbox']:checked + label {
-  color: $white;
-  border-color: $white;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 input[type='text'] {
   width: 100%;
   height: 4.6rem;
   font-size: 1.4rem;
-  color: $white;
+  color: #ffffff;
   background-color: transparent;
   border: 0.1rem solid #454545;
   padding: 0 2rem;
@@ -644,7 +644,7 @@ input#check-agree::before {
   width: 100%;
   height: 100%;
   border-radius: 100%;
-  background-color: $white;
+  background-color: #ffffff;
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
@@ -667,7 +667,7 @@ textarea {
   width: 100%;
   height: 15.2rem;
   font-size: 1.4rem;
-  color: $white;
+  color: #ffffff;
   background-color: transparent;
   border: 0.1rem solid #454545;
   padding: 1.4rem 2rem;
@@ -693,7 +693,7 @@ textarea::placeholder {
 .form-area__title {
   font-size: 1.8rem;
   font-weight: 700;
-  color: $white;
+  color: #ffffff;
 }
 
 .form-area__select-area {
@@ -757,7 +757,7 @@ textarea::placeholder {
   height: 4.6rem;
   line-height: 4.6rem;
   font-size: 1.4rem;
-  color: $white;
+  color: #ffffff;
   text-align: center;
   vertical-align: top;
   background-color: #454545;
@@ -780,7 +780,7 @@ textarea::placeholder {
 .form-footer .agree-title {
   font-size: 1.4rem;
   font-weight: 700;
-  color: $white;
+  color: #ffffff;
   margin-left: 1rem;
 }
 
@@ -816,8 +816,8 @@ textarea::placeholder {
 }
 
 #form-contact {
-  border-top: 0.4rem solid $white;
-  border-bottom: 0.4rem solid $white;
+  border-top: 0.4rem solid #ffffff;
+  border-bottom: 0.4rem solid #ffffff;
 }
 
 header {
@@ -877,7 +877,7 @@ header .header__btn span {
   display: block;
   width: 2.7rem;
   height: 0.4rem;
-  background-color: $white;
+  background-color: #ffffff;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
@@ -943,11 +943,11 @@ header .header__btn:hover span:last-child {
 }
 
 .nav__list-item li.on a {
-  color: $white;
+  color: #ffffff;
 }
 
 .nav__list-item li:hover a {
-  color: $white;
+  color: #ffffff;
 }
 
 .nav__list-item--contact li .title {
@@ -958,7 +958,7 @@ header .header__btn:hover span:last-child {
 
 .nav__list-item--contact li .desc {
   font-size: 1.5rem;
-  color: $white;
+  color: #ffffff;
   margin-top: 0.8rem;
 }
 
@@ -1010,7 +1010,7 @@ main {
 .contents-wrap .text-area.type01 .desc__sub {
   font-size: 1.8rem;
   font-weight: 700;
-  color: $white;
+  color: #ffffff;
   line-height: 2.6rem;
 }
 
@@ -1145,7 +1145,7 @@ main {
 
 .contents-wrap#art .list-item li a .caption .type-caption {
   font-size: 1.8rem;
-  color: $white;
+  color: #ffffff;
   z-index: 10;
 }
 
@@ -1210,7 +1210,7 @@ main {
   .project-info
   li
   span.item-value {
-  color: $white;
+  color: #ffffff;
   margin-top: 1.8rem;
 }
 
@@ -1347,7 +1347,7 @@ main {
 }
 
 .contents-area .text-area__desc dl {
-  color: $white;
+  color: #ffffff;
 }
 
 .contents-area .text-area__desc dl dt {
@@ -1544,7 +1544,7 @@ main {
 
 .popup-wrap.type01 .popup-head {
   height: 7.5rem;
-  color: $white;
+  color: #ffffff;
   text-align: center;
   border-radius: 2rem 2rem 0 0;
   background-color: #171717;
@@ -1566,7 +1566,7 @@ main {
 .popup-wrap.type01 .popup-contents {
   height: calc(100% - 7.5rem);
   padding: 1.8rem;
-  background-color: $white;
+  background-color: #ffffff;
   overflow-y: auto;
 }
 
@@ -1616,7 +1616,7 @@ main {
   padding: 3rem;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background-color: $white;
+  background-color: #ffffff;
   overflow: hidden;
 }
 

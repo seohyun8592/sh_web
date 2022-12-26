@@ -834,21 +834,7 @@ textarea:focus:-ms-input-placeholder {
   border: 1px solid #348597;
   border-radius: 0.3125rem;
   padding: 0 0.625rem;
-}
-
-.ly-contents__main .contents__item ul.project li a.project__link:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -0.0625rem;
-  display: block;
-  width: 0;
-  height: calc(100% + 1px);
-  background-color: #348597;
-  border-radius: 0.3125rem;
-  opacity: 0.5;
-  -webkit-animation: bgColor 2s infinite cubic-bezier(0.66, -0.16, 0.34, 1.1);
-          animation: bgColor 2s infinite cubic-bezier(0.66, -0.16, 0.34, 1.1);
+  margin-top: 0.625rem;
 }
 
 .ly-contents__main .contents__item ul.q-list li p {
@@ -1023,6 +1009,10 @@ body.stop__scroll {
 
 .tag.jquery {
   background-color: #3aafb9;
+}
+
+.tag.react {
+  background-color: #e3409a;
 }
 
 @media (max-width: 1024px) {

@@ -1,20 +1,20 @@
 {
   "items": [
     {
-      "link": "../project/tforu/index.html",
-      "title": "다즐링",
+      "link": "../../tforu/index.html",
+      "title": "티포유",
       "date": 2022.04,
       "client": "다즐링",
       "type": "web",
       "image": "../img/art01.png"
     },
     {
-      "link": "./project_detail.html",
-      "title": "가온스튜디오",
+      "link": "../../mog/index.html",
+      "title": "모그",
       "date": 2022.04,
-      "client": "황현진",
+      "client": "모그",
       "type": "web",
-      "image": "../img/art01.png"
+      "image": "../img/art02.png"
     }
   ]
 }

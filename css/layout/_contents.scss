@@ -297,22 +297,23 @@
                     border: 1px solid $baseColor;
                     border-radius: rem(5);
                     padding: 0 rem(10);
+                    margin-top: rem(10);
                     // animation: fontColor 1s infinite ease-in-out;
 
-                    &:after {
-                      content: '';
-                      position: absolute;
-                      top: 0;
-                      left: rem(-1);
-                      display: block;
-                      width: 0;
-                      height: calc(100% + 1px);
-                      background-color: $baseColor;
-                      border-radius: rem(5);
-                      opacity: 0.5;
-                      animation: bgColor 2s infinite
-                        cubic-bezier(0.66, -0.16, 0.34, 1.1);
-                    }
+                    // &:after {
+                    //   content: '';
+                    //   position: absolute;
+                    //   top: 0;
+                    //   left: rem(-1);
+                    //   display: block;
+                    //   width: 0;
+                    //   height: calc(100% + 1px);
+                    //   background-color: $baseColor;
+                    //   border-radius: rem(5);
+                    //   opacity: 0.5;
+                    //   animation: bgColor 2s infinite
+                    //     cubic-bezier(0.66, -0.16, 0.34, 1.1);
+                    // }
                   }
                 }
               }

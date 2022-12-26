@@ -53,6 +53,7 @@
     let liHTML = '';
 
     getItem.forEach((e, i) => {
+      console.log(e.link);
       liHTML += `
         <li>
           <a href="${e.link}?${i}" target="_blank">

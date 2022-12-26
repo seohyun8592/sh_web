@@ -979,7 +979,7 @@ label {
     border-radius: 0;
   }
   .app.setting .app-footer {
-    background-color: $white;
+    background-color: #ffffff;
   }
   .app .app-contents .contents-area .terms-area h2 {
     font-size: 2rem;
@@ -994,7 +994,7 @@ nav {
   top: 0;
   width: 51.3rem;
   height: 100%;
-  background-color: $white;
+  background-color: #ffffff;
   padding: 8.1rem 0;
   -webkit-transition: right 0.4s ease-in;
   transition: right 0.4s ease-in;
@@ -1149,7 +1149,7 @@ nav .gnb-list > li.on .icon-drop {
   position: fixed;
   width: 100%;
   height: 8.3rem;
-  background-color: $white;
+  background-color: #ffffff;
   border-bottom: 0.1rem solid #b2b3b2;
   z-index: 9997;
 }
@@ -1222,7 +1222,7 @@ nav .gnb-list > li.on .icon-drop {
   border: 0.3rem solid #000000;
   border-radius: 2rem;
   padding: 1.5rem;
-  background-color: $white;
+  background-color: #ffffff;
 }
 
 .app-header .alarm-area .alarm-popup ul li + li {
@@ -1289,7 +1289,7 @@ nav .gnb-list > li.on .icon-drop {
   line-height: 7.4rem;
   border-radius: 15px;
   padding-left: 3.1rem;
-  background-color: $white;
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: right 2.2rem top -0.1rem;
   -webkit-box-shadow: 0px 0px 25px rgba(149, 157, 170, 0.3);
@@ -1297,7 +1297,7 @@ nav .gnb-list > li.on .icon-drop {
 }
 
 .app .main-menu .menu-btn.on {
-  color: $white;
+  color: #ffffff;
   background-color: #39c6cc;
 }
 
@@ -1339,7 +1339,7 @@ nav .gnb-list > li.on .icon-drop {
 
 .app .main-menu .menu-btn:hover {
   background-color: #39c6cc;
-  color: $white;
+  color: #ffffff;
 }
 
 .app .main-menu .menu-btn:hover .menu-btn01 {
@@ -1398,7 +1398,7 @@ nav .gnb-list > li.on .icon-drop {
   top: 50%;
   left: 0;
   font-weight: 700;
-  color: $white;
+  color: #ffffff;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -1558,7 +1558,7 @@ nav .gnb-list > li.on .icon-drop {
 .app-contents .contents-area .terms-area .contents {
   border-radius: 0.5rem;
   padding: 5rem 8rem;
-  background-color: $white;
+  background-color: #ffffff;
 }
 
 .app-contents .contents-area .terms-area .row-list h3 {
@@ -1596,7 +1596,7 @@ nav .gnb-list > li.on .icon-drop {
 }
 
 .app-contents .contents-area .board-area {
-  background-color: $white;
+  background-color: #ffffff;
 }
 
 .app-contents .contents-area .board-area .board-title {
@@ -1722,7 +1722,7 @@ nav .gnb-list > li.on .icon-drop {
 .app-contents .contents-area .board-area .board-box .list-item-depth01 > li {
   position: relative;
   width: 17.6rem;
-  background-color: $white;
+  background-color: #ffffff;
   padding-right: 3rem;
 }
 
@@ -1732,7 +1732,7 @@ nav .gnb-list > li.on .icon-drop {
   font-size: 1.5rem;
   font-weight: 700;
   padding: 2.3rem 3rem 2.3rem 0;
-  background-color: $white;
+  background-color: #ffffff;
 }
 
 .app-contents
@@ -1791,7 +1791,7 @@ nav .gnb-list > li.on .icon-drop {
   top: 4.9rem;
   width: 9.4rem;
   height: 0;
-  background-color: $white;
+  background-color: #ffffff;
   border-radius: 1.5rem;
   padding: 0 1.2rem;
   -webkit-box-shadow: 0px 0px 2.5rem rgba(149, 157, 170, 0.3);
@@ -1930,7 +1930,7 @@ nav .gnb-list > li.on .icon-drop {
   position: relative;
   width: calc(50% - 1rem);
   height: 37rem;
-  color: $white;
+  color: #ffffff;
   border-radius: 1.5rem;
   padding: 5rem 4.8rem 0 5rem;
 }
@@ -1938,7 +1938,7 @@ nav .gnb-list > li.on .icon-drop {
 .app-contents .sect-contents#cont-01 .contents-box-area .cont-box .title {
   font-size: 2.5rem;
   font-weight: 900;
-  color: $white;
+  color: #ffffff;
 }
 
 .app-contents .sect-contents#cont-01 .contents-box-area .cont-box .desc {
@@ -2019,7 +2019,7 @@ nav .gnb-list > li.on .icon-drop {
   position: relative;
   max-width: 28rem;
   height: 36.7rem;
-  color: $white;
+  color: #ffffff;
   border-radius: 1.5rem;
   background-color: brown;
   padding: 3.6rem 0 0 4.4rem;
@@ -2181,7 +2181,7 @@ nav .gnb-list > li.on .icon-drop {
 }
 
 .app-contents .sect-contents#cont-03 {
-  color: $white;
+  color: #ffffff;
   background: linear-gradient(97.2deg, #39c6cc 0%, rgba(85, 187, 179, 0) 99.42%),
     #3579b7;
 }
@@ -2245,7 +2245,7 @@ nav .gnb-list > li.on .icon-drop {
 
 .app-contents .sect-contents .list-item ul li a {
   display: block;
-  color: $white;
+  color: #ffffff;
   padding: 3.2rem 6rem 5rem;
 }
 
@@ -2253,7 +2253,7 @@ nav .gnb-list > li.on .icon-drop {
   display: block;
   width: 10.6rem;
   font-size: 1.8rem;
-  color: $white;
+  color: #ffffff;
   padding-top: 12.6rem;
   margin: 0 auto;
 }
@@ -2318,7 +2318,7 @@ nav .gnb-list > li.on .icon-drop {
   display: block;
   text-align: left;
   border-radius: 1.5rem;
-  background-color: $white;
+  background-color: #ffffff;
   padding: 3.1rem 1.9rem 1.7rem;
 }
 
@@ -2745,7 +2745,7 @@ nav .gnb-list > li.on .icon-drop {
   width: 7.4rem;
   height: 7.4rem;
   font-size: 1.2rem;
-  color: $white;
+  color: #ffffff;
   padding: 4.7rem 0 0;
   background-repeat: no-repeat;
   background-position: center top 1.6rem;
@@ -2868,7 +2868,7 @@ nav .gnb-list > li.on .icon-drop {
 
 .popup-wrap.type01 .popup-head {
   height: 7.5rem;
-  color: $white;
+  color: #ffffff;
   text-align: center;
   border-radius: 2rem 2rem 0 0;
   background-color: #7c8594;
@@ -2883,7 +2883,7 @@ nav .gnb-list > li.on .icon-drop {
 .popup-wrap.type01 .popup-contents {
   height: calc(100% - 7.5rem);
   padding: 1.8rem;
-  background-color: $white;
+  background-color: #ffffff;
   overflow-y: auto;
 }
 
@@ -3099,7 +3099,7 @@ nav .gnb-list > li.on .icon-drop {
   padding: 3rem;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background-color: $white;
+  background-color: #ffffff;
   overflow: hidden;
 }
 
@@ -3118,7 +3118,7 @@ nav .gnb-list > li.on .icon-drop {
 
 .popup-wrap .popup-area .btn-login {
   background-color: #39c6cc;
-  color: $white;
+  color: #ffffff;
   border: 0.1rem solid #39c6cc;
   margin-top: 2rem;
 }
@@ -3267,7 +3267,7 @@ select {
   border: 0.3rem solid #000000;
   border-radius: 2rem;
   padding: 2.5rem 1.5rem 0;
-  background-color: $white;
+  background-color: #ffffff;
 }
 
 .search-area .search-popup .list-item {
@@ -3801,7 +3801,7 @@ textarea {
   min-width: 11rem;
   height: 4.2rem;
   font-size: 1.3rem;
-  color: $white;
+  color: #ffffff;
   line-height: 4.2rem;
   text-align: center;
   border-radius: 10rem;
@@ -3823,7 +3823,7 @@ textarea {
 }
 
 .btn-login {
-  background-color: $white;
+  background-color: #ffffff;
   color: #989898;
   border: 0.1rem solid #989898;
   margin-left: 1.2rem;
@@ -3833,7 +3833,7 @@ textarea {
   background-color: #39c6cc;
   font-size: 1.8rem;
   font-weight: 700;
-  color: $white;
+  color: #ffffff;
   line-height: 5.7rem;
   border: 0;
   margin-left: 0;
@@ -3846,7 +3846,7 @@ textarea {
   font-weight: 900;
   letter-spacing: 0.05rem;
   color: #000000;
-  background-color: $white;
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 25px rgba(149, 157, 170, 0.3);
   box-shadow: 0px 0px 25px rgba(149, 157, 170, 0.3);
   margin: 5.5rem auto 0;
@@ -3856,18 +3856,18 @@ textarea {
 
 .btn-view:hover {
   background-color: #39c6cc;
-  color: $white;
+  color: #ffffff;
 }
 
 .btn-view.small {
   width: 9.8rem;
   height: 3.4rem;
   line-height: 3.2rem;
-  color: $white;
+  color: #ffffff;
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
-  border: 0.1rem solid $white;
+  border: 0.1rem solid #ffffff;
   margin: 2.5rem 0 0 0;
 }
 
@@ -3961,7 +3961,7 @@ textarea {
   font-size: 1.3rem;
   font-weight: 700;
   line-height: 5.9rem;
-  color: $white;
+  color: #ffffff;
   border-radius: 0.5rem;
 }
 
@@ -4065,7 +4065,7 @@ textarea {
 
 .tab-btn-area .tab-btn.on {
   background-color: #39c6cc;
-  color: $white;
+  color: #ffffff;
   border-radius: 1.5rem;
 }
 
