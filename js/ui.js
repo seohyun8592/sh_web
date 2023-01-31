@@ -135,7 +135,6 @@ function formOpenPopup() {
 }
 function openPopUp(id) {
   id.classList.add(ON);
-  console.log(id);
 }
 
 function closePopUp(id) {
