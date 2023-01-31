@@ -110,7 +110,22 @@
 
                   <section class="contents__item">
                     <h3>Project</h3>
+
                     <ul class="project">
+                      <li class="on__popup" onclick="openPopUp(pop02)">
+                        <span class="title">YouTube 클론 코딩</span>
+                        <p>네트워크 통신의 이해</p>
+                        <p class="project__period">2023.01.25 ~ 진행중</p>
+                        <p>
+                          <span class="tag react">React</span>
+                        </p>
+                        <a
+                          href="https://euphonious-travesseiro-ba6fb4.netlify.app/"
+                          target="_blank"
+                          class="project__link"
+                          >React</a
+                        >
+                      </li>
                       <li>
                         Todo-List
                         <p>다크모드 지원 Todo-List</p>
@@ -620,6 +635,25 @@
           type="button"
           class="btn btn__close"
           onclick="closePopUp(pop01);"
+        >
+          닫기
+        </button>
+      </div>
+    </div>
+
+    <div class="dim" id="pop02">
+      <div class="popup__wrap type01">
+        <div class="popup__contents">
+          <p>
+            YouTube open AIP를 활용해 실제 유튜브 데이터를 이용하며,
+            tailwindcss로 간편한 스타일링과 리액트 라우터와 리액트 쿼리를 사용해
+            네트워크에서 가져 온 데이터를 상태 관리 할 수 있도록 만들었습니다.
+          </p>
+        </div>
+        <button
+          type="button"
+          class="btn btn__close"
+          onclick="closePopUp(pop02);"
         >
           닫기
         </button>

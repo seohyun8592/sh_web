@@ -835,6 +835,24 @@ textarea:focus:-ms-input-placeholder {
   border-radius: 0.3125rem;
   padding: 0 0.625rem;
   margin-top: 0.625rem;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.ly-contents__main .contents__item ul.project li a.project__link:hover {
+  color: #ffffff;
+  background-color: #f3a94f;
+  border: 0.0625rem solid #f3a94f;
+}
+
+.ly-contents__main .contents__item ul.project li.on__popup {
+  cursor: pointer;
+}
+
+.ly-contents__main .contents__item ul.project li.on__popup:hover .title {
+  color: #ee6c4d;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 .ly-contents__main .contents__item ul.q-list li p {
@@ -950,7 +968,25 @@ body.stop__scroll {
 }
 
 .popup__wrap .btn__close {
-  margin: 0 auto;
+  margin: 1.25rem auto 0;
+}
+
+.popup__wrap.type01 {
+  width: 50%;
+  height: auto;
+  min-width: 20rem;
+  max-height: 22.5rem;
+}
+
+.popup__wrap.type01 .popup__contents {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.popup__wrap.type01 .popup__contents p {
+  text-align: left;
+  line-height: 1.3;
 }
 
 .popup__contents {
