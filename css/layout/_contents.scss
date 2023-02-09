@@ -315,19 +315,19 @@
                     //   animation: bgColor 2s infinite
                     //     cubic-bezier(0.66, -0.16, 0.34, 1.1);
                     // }
-                    &:hover {
-                      color: $white;
-                      background-color: $subTxtColor;
-                      border: rem(1) solid $subTxtColor;
-                    }
+                    // &:hover {
+                    //   color: $white;
+                    //   background-color: $subTxtColor;
+                    //   border: rem(1) solid $subTxtColor;
+                    // }
                   }
                 }
                 &.on__popup {
                   cursor: pointer;
                   &:hover {
                     .title {
-                      color: #ee6c4d;
-                      transition: color 0.3s ease-in-out;
+                      // color: #ee6c4d;
+                      // transition: color 0.3s ease-in-out;
                       // &:after {
                       //   content: '';
                       //   position: absolute;

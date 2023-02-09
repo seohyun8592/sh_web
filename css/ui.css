@@ -839,20 +839,8 @@ textarea:focus:-ms-input-placeholder {
   transition: background-color 0.3s ease-in-out;
 }
 
-.ly-contents__main .contents__item ul.project li a.project__link:hover {
-  color: #ffffff;
-  background-color: #f3a94f;
-  border: 0.0625rem solid #f3a94f;
-}
-
 .ly-contents__main .contents__item ul.project li.on__popup {
   cursor: pointer;
-}
-
-.ly-contents__main .contents__item ul.project li.on__popup:hover .title {
-  color: #ee6c4d;
-  -webkit-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
 }
 
 .ly-contents__main .contents__item ul.q-list li p {
