@@ -713,7 +713,7 @@ textarea:focus:-ms-input-placeholder {
   margin-top: 0.3125rem;
 }
 
-.ly-contents__main .contents__item ul.skill li {
+.ly-contents__main .contents__item ul.skill {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -723,66 +723,14 @@ textarea:focus:-ms-input-placeholder {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  height: 1.0625rem;
-  font-size: 0.875rem;
-  color: #348597;
 }
 
-.ly-contents__main .contents__item ul.skill li .skill__title {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  width: 6.25rem;
+.ly-contents__main .contents__item ul.skill li img {
+  width: 2.8125rem;
 }
 
-.ly-contents__main .contents__item ul.skill li .skill__bar {
-  position: relative;
-  width: 33.125rem;
-  max-width: 33.125rem;
-  height: 0.625rem;
-  min-width: 11.5625rem;
-  border: 0.0625rem solid #f3a94f;
-  border-radius: 0.625rem;
-  margin-left: 1.25rem;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  overflow: hidden;
-}
-
-.ly-contents__main .contents__item ul.skill li .skill__per {
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 0;
-  height: 100%;
-  border: 0.0625rem solid #f3a94f;
-  border-radius: 0.625rem;
-  background-color: #f3a94f;
-  -webkit-transition: left 0.4s ease-in;
-  transition: left 0.4s ease-in;
-}
-
-.ly-contents__main .contents__item ul.skill li .skill__per::before {
-  content: attr(data-per);
-  position: absolute;
-  top: 50%;
-  right: 0.3125rem;
-  color: #ffffff;
-  font-size: 0.625rem;
-  border-radius: 0.25rem;
-  -webkit-transform: translateY(calc(-50% - 1px));
-          transform: translateY(calc(-50% - 1px));
-}
-
-.ly-contents__main .contents__item ul.skill li .skill__per.active {
-  left: 0;
-}
-
-.ly-contents__main .contents__item ul.skill li span {
-  display: block;
-}
-
-.ly-contents__main .contents__item ul.skill li + .skill {
-  margin-top: 0.9375rem;
+.ly-contents__main .contents__item ul.skill li + li {
+  margin-top: 0;
 }
 
 .ly-contents__main .contents__item ul.project {

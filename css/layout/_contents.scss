@@ -207,61 +207,69 @@
               }
             }
             &.skill {
+              @include onFlex(center, flex-start);
+              // li {
+              //   @include onFlex(center, flex-start);
+              //   height: rem(17);
+              //   font-size: rem(14);
+              //   color: $baseColor;
+              //   .skill {
+              //     &-item {
+              //     }
+              //     &__title {
+              //       flex-shrink: 0;
+              //       width: rem(100);
+              //     }
+              //     &__bar {
+              //       position: relative;
+              //       width: rem(530);
+              //       max-width: rem(530);
+              //       height: rem(10);
+              //       min-width: rem(185);
+              //       border: rem(1) solid $subTxtColor;
+              //       border-radius: rem(10);
+              //       margin-left: rem(20);
+              //       box-sizing: content-box;
+              //       overflow: hidden;
+              //     }
+              //     &__per {
+              //       position: absolute;
+              //       top: 0;
+              //       left: -100%;
+              //       width: 0;
+              //       height: 100%;
+              //       border: rem(1) solid $subTxtColor;
+              //       border-radius: rem(10);
+              //       background-color: $subTxtColor;
+              //       transition: left 0.4s ease-in;
+              //       &::before {
+              //         content: attr(data-per);
+              //         position: absolute;
+              //         top: 50%;
+              //         right: rem(5);
+              //         color: $white;
+              //         font-size: rem(10);
+              //         border-radius: rem(4);
+              //         transform: translateY(calc(-50% - 1px));
+              //       }
+              //       &.active {
+              //         left: 0;
+              //       }
+              //     }
+              //   }
+              //   span {
+              //     display: block;
+              //   }
+              //   & + .skill {
+              //     margin-top: rem(15);
+              //   }
+              // }
               li {
-                @include onFlex(center, flex-start);
-                height: rem(17);
-                font-size: rem(14);
-                color: $baseColor;
-                .skill {
-                  &-item {
-                  }
-                  &__title {
-                    flex-shrink: 0;
-                    width: rem(100);
-                  }
-                  &__bar {
-                    position: relative;
-                    width: rem(530);
-                    max-width: rem(530);
-                    height: rem(10);
-                    min-width: rem(185);
-                    border: rem(1) solid $subTxtColor;
-                    border-radius: rem(10);
-                    margin-left: rem(20);
-                    box-sizing: content-box;
-                    overflow: hidden;
-                  }
-                  &__per {
-                    position: absolute;
-                    top: 0;
-                    left: -100%;
-                    width: 0;
-                    height: 100%;
-                    border: rem(1) solid $subTxtColor;
-                    border-radius: rem(10);
-                    background-color: $subTxtColor;
-                    transition: left 0.4s ease-in;
-                    &::before {
-                      content: attr(data-per);
-                      position: absolute;
-                      top: 50%;
-                      right: rem(5);
-                      color: $white;
-                      font-size: rem(10);
-                      border-radius: rem(4);
-                      transform: translateY(calc(-50% - 1px));
-                    }
-                    &.active {
-                      left: 0;
-                    }
-                  }
+                img {
+                  width: rem(45);
                 }
-
-                span {
-                  display: block;
-                }
-                & + .skill {
-                  margin-top: rem(15);
+                & + li {
+                  margin-top: 0;
                 }
               }
             }
