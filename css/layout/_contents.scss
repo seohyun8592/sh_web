@@ -208,6 +208,7 @@
             }
             &.skill {
               @include onFlex(center, flex-start);
+              margin-top: rem(5);
               // li {
               //   @include onFlex(center, flex-start);
               //   height: rem(17);
@@ -265,11 +266,9 @@
               //   }
               // }
               li {
+                margin-top: rem(10);
                 img {
                   width: rem(45);
-                }
-                & + li {
-                  margin-top: 0;
                 }
               }
             }
@@ -627,6 +626,12 @@ body {
   }
   .ly-contents__visual .visual__intro-wrap .title {
     font-size: rem(32);
+  }
+}
+
+@media (max-width: 480px) {
+  .ly-contents__main .contents__item ul.skill {
+    flex-wrap: wrap;
   }
 }
 
