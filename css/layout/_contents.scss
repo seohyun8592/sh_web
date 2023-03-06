@@ -633,6 +633,9 @@ body {
   .ly-contents__main .contents__item ul.skill {
     flex-wrap: wrap;
   }
+  .ly-contents__main .contents__item ul.skill li img {
+    width: rem(30);
+  }
 }
 
 @keyframes toLeft {

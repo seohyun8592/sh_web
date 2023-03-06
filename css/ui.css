@@ -1088,6 +1088,9 @@ body.stop__scroll {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .ly-contents__main .contents__item ul.skill li img {
+    width: 1.875rem;
+  }
 }
 
 @keyframes toLeft {
