@@ -10,7 +10,7 @@ const body = document.querySelector('body');
 const header = document.querySelector('header');
 const conMain = document.querySelector('.ly-contents__main');
 const conArea = document.querySelector('.contents-area');
-const dim = document.querySelectorAll('.dim');
+// const dim = document.querySelectorAll('.dim');
 
 // 헤더 고정
 function headerFixed() {
@@ -25,80 +25,96 @@ function headerFixed() {
 }
 
 // 스킬
-function skillPerMove() {
-  const skillWrap = document.querySelector('.skill');
-  const skillPer = document.querySelectorAll('.skill__per');
-  const skillWrapScrT = skillWrap.getBoundingClientRect().top;
-  skillPer.forEach((el) => {
-    el.style.width = el.dataset.per + '%';
-    let scrT = window.scrollY;
-    if (scrT > skillWrapScrT) {
-      el.classList.add(ACTIVE);
-    }
-  });
-}
+// function skillPerMove() {
+//   const skillWrap = document.querySelector('.skill');
+//   const skillPer = document.querySelectorAll('.skill__per');
+//   const skillWrapScrT = skillWrap.getBoundingClientRect().top;
+//   skillPer.forEach((el) => {
+//     el.style.width = el.dataset.per + '%';
+//     let scrT = window.scrollY;
+//     if (scrT > skillWrapScrT) {
+//       el.classList.add(ACTIVE);
+//     }
+//   });
+// }
 
 // 탭
-function tabEvtHandler() {
-  const tabArea = document.querySelectorAll('.tab-area');
+// function tabEvtHandler() {
+//   const tabArea = document.querySelectorAll('.tab-area');
 
-  tabArea.forEach((el, i) => {
-    const tabBtnWap = el.querySelector('.tab-area__btn');
-    const tabConWrap = el.querySelector('.tab-area__contents');
-    const tabBtn = tabBtnWap.querySelectorAll('.tab__btn');
-    tabBtn.forEach((btn, idx) => {
-      btn.addEventListener(CLICK, () => {
-        for (let z = 0; z < tabBtn.length; z++) {
-          tabBtn[z].parentElement.classList.remove(ON);
-          tabConWrap.children[z].classList.remove(ON);
-        }
-        btn.parentElement.classList.add(ON);
-        tabConWrap.children[idx].classList.add(ON);
-      });
-    });
-  });
-}
+//   tabArea.forEach((el, i) => {
+//     const tabBtnWap = el.querySelector('.tab-area__btn');
+//     const tabConWrap = el.querySelector('.tab-area__contents');
+//     const tabBtn = tabBtnWap.querySelectorAll('.tab__btn');
+//     tabBtn.forEach((btn, idx) => {
+//       btn.addEventListener(CLICK, () => {
+//         for (let z = 0; z < tabBtn.length; z++) {
+//           tabBtn[z].parentElement.classList.remove(ON);
+//           tabConWrap.children[z].classList.remove(ON);
+//         }
+//         btn.parentElement.classList.add(ON);
+//         tabConWrap.children[idx].classList.add(ON);
+//       });
+//     });
+//   });
+// }
 
-function onButtonClick(event, z) {
-  const key = event.target.dataset.type;
-  const arr = [];
+// function onButtonClick(event, z) {
+//   const key = event.target.dataset.type;
+//   const arr = [];
 
-  if (!key === null) {
-    return;
-  }
+//   if (!key === null) {
+//     return;
+//   }
 
-  event.target.classList.add(ON);
+//   event.target.classList.add(ON);
 
-  z.classList.remove(ON);
+//   z.classList.remove(ON);
 
-  arr.push(z);
-  const filtered = arr.filter((item) => item.dataset.type === key);
+//   arr.push(z);
+//   const filtered = arr.filter((item) => item.dataset.type === key);
 
-  filtered.forEach((con) => {
-    con.classList.add(ON);
-  });
-}
+//   filtered.forEach((con) => {
+//     con.classList.add(ON);
+//   });
+// }
 
-function setEventListener(z) {
-  const allBtn = document.querySelector('.sort__btn--all');
-  const sortBtn = document.querySelectorAll('.sort__btn');
+// function setEventListener(z) {
+//   const allBtn = document.querySelector('.sort__btn--all');
+//   const sortBtn = document.querySelectorAll('.sort__btn');
 
-  sortBtn.forEach((el) => {
-    allBtn.addEventListener(CLICK, () => {
-      allBtn.classList.add(ON);
-      z.classList.add(ON);
-      el.classList.remove(ON);
-    });
+//   sortBtn.forEach((el) => {
+//     allBtn.addEventListener(CLICK, () => {
+//       allBtn.classList.add(ON);
+//       z.classList.add(ON);
+//       el.classList.remove(ON);
+//     });
 
-    el.addEventListener(CLICK, () => {
-      sortBtn.forEach((e) => {
-        e.classList.remove(ON);
-        allBtn.classList.remove(ON);
-      });
-      onButtonClick(event, z);
-    });
-  });
-}
+//     el.addEventListener(CLICK, () => {
+//       sortBtn.forEach((e) => {
+//         e.classList.remove(ON);
+//         allBtn.classList.remove(ON);
+//       });
+//       onButtonClick(event, z);
+//     });
+//   });
+// }
+
+// function formOpenPopup() {
+//   dim.forEach((el) => {
+//     if (el.id === 'pop01') {
+//       el.classList.add(ON);
+//     }
+//   });
+// }
+
+// function openPopUp(id) {
+//   id.classList.add(ON);
+// }
+
+// function closePopUp(id) {
+//   id.classList.remove(ON);
+// }
 
 function formSubmitData() {
   const formSubmit = document.querySelector('.btn__submit');
@@ -124,21 +140,6 @@ function formSubmitData() {
       },
     });
   });
-}
-
-function formOpenPopup() {
-  dim.forEach((el) => {
-    if (el.id === 'pop01') {
-      el.classList.add(ON);
-    }
-  });
-}
-function openPopUp(id) {
-  id.classList.add(ON);
-}
-
-function closePopUp(id) {
-  id.classList.remove(ON);
 }
 
 // visual
@@ -180,7 +181,6 @@ function fadeUp() {
     }, 10);
   }, 2400);
 }
-// fadeUp();
 
 function seq_init() {
   for (idx = 0; idx <= _img_count; idx++) {
@@ -191,16 +191,8 @@ function seq_init() {
 
       if (_img_load === _img_count) {
         fadeUp();
-
-        // rolling();
       }
     };
-    // _img_tmp.onerror = function () {
-    //   ++_img_load;
-    //   if (_img_load == _img_count) {
-    //     rolling();
-    //   }
-    // };
   }
   idx = 0;
   rolling();
@@ -267,23 +259,10 @@ function bindEvtHandler() {
 function init() {
   seq_init();
   bindEvtHandler();
-  tabEvtHandler();
+  // tabEvtHandler();
   formSubmitData();
 }
 
 document.addEventListener('DOMContentLoaded', function () {
   init();
 });
-
-const input = [
-  { name: '철수', age: 12 },
-  { name: '영희', age: 10 },
-  { name: '바둑이', age: 2 },
-];
-
-const minAge = Math.min(...input.map((item) => item.age));
-// const minAge = Math.max.apply(
-//   null,
-//   input.map((item) => item.age)
-// );
-console.log(minAge);

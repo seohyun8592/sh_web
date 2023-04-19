@@ -1048,6 +1048,12 @@ body.stop__scroll {
     display: block;
     margin: 0 auto 3.125rem;
   }
+  .ly-contents__main .contents__item h3 {
+    font-size: 1rem;
+  }
+  .ly-contents__main .contents__item h3 + ul {
+    margin-top: 0.625rem;
+  }
   .ly-contents__main .contents__list {
     width: 100%;
     padding: 0;
@@ -1056,8 +1062,12 @@ body.stop__scroll {
     font-size: 1.25rem;
     margin-bottom: 0.9375rem;
   }
+  .ly-contents__main .contents__item + .contents__item {
+    margin-top: 1.25rem;
+  }
   .ly-contents__main .contents__item ul.project li {
     width: 100%;
+    font-size: 0.875rem;
   }
   .ly-wrap .skills-area .skill-name:hover {
     top: 0;
